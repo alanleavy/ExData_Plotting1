@@ -65,6 +65,7 @@ if(!file.exists("household_power_consumption.txt")){
 
 dfHPC <-PrepareData()
 
+  ## I'm making the plots transparent, like the samples provided in GitHub: ExData_Plotting1/figure/
 png(filename = "plot4.png", width = 480, height = 480, units = "px", bg="transparent")
 Plot4_content(dfHPC)
 dev.off()
